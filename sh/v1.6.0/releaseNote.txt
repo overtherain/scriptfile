@@ -1,0 +1,19 @@
+latest version: 1.6.0
+===== 1.6.0 Aug 06, 2012=====
+main:
+	update bt log capture method
+	add gps log capture
+detail:
+	set folder logs/androidlog_<datetoseconds>_<board>_<type>/bt/ as store bt logs
+	set folder logs/androidlog_<datetoseconds>_<board>_<type>/gps/ as store gps logs
+
+===== 1.5.1 Jun 28, 2012=====
+main:
+	change tool structure
+	support windows XP and windows 7
+	support android 2.2 and high version
+	support user eng and userdebug mode
+detail:
+	set folder tools as common used tools
+	set folder tmp as temp files while execute Scripts
+	set folder logs as storing logs

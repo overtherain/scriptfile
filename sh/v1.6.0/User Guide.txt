@@ -1,0 +1,7 @@
+Usage:
+	Double Click script "LogAndroid2PC.bat" while DUT is ready to be test.
+	Double Click script "StopLogging.bat" while DUT is finished test.
+	Both StopLogging.bat and LogForTethering.bat can capture logs after tethering.
+	LogForTethering.bat will be used by pc not support bat goto functions.
+	logs store on folder:
+		logs/androidlog_<datetoseconds>_<board>_<type>

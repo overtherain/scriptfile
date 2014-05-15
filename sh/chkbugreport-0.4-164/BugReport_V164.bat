@@ -1,0 +1,1 @@
+java -jar C:\chkbugreport-0.4-164.jar bugreport.log

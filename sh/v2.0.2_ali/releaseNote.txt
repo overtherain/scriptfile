@@ -1,0 +1,19 @@
+latest version: 2.0.2
+===== 2.0.2 Jan 08, 2013=====
+main:
+    add adb pull /data/system/dropbox and adb pull /data/misc/hprofs
+	add adb shell slogctl clear command for clear device log after capture log
+detail:
+	fix clear old log on devie
+===== 2.0.1 Nov 23, 2012=====
+main:
+	error ocur while path has space
+detail:
+	fixed error while path to store tools has space
+===== 2.0.0 Nov 19, 2012=====
+main:
+	initialize new tools for specific tools
+detail:
+	initialize the tools to adapter new log system on DUT,
+	this version works only part of sprd devices such as android 4.0.3 main branch
+	
