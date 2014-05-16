@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo umount ${ZTKJ}
+sudo umount ${STORE_SERVER_POINT}

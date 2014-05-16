@@ -1,0 +1,140 @@
+latest version: 2.2.4
+===== 2.2.4 Apr 17, 2014=====
+main:
+    add comments for end user to check the log catch process
+    add folder download for future log processing
+detail:
+    as before
+
+===== 2.2.3 Apr 1, 2014=====
+main:
+    add pull media databases add runtime logs and add check if log file is empty
+detail:
+    add command
+    /data/data/com.android.providers.media/databases 
+===== 2.2.2 Feb 10, 2014=====
+main:
+    add bugreport command support and store log to bugreport/bugreport.log
+detail:
+    add bugreport command support and store log to bugreport/bugreport.log
+===== 2.2.1 Feb 10, 2014=====
+main:
+    update adb to 1.0.31
+detail:
+    update adb to 1.0.31
+===== 2.2.0 Nov 27, 2013=====
+main:
+	remove bugreport command 
+detail:
+    delete command
+    %ADB_CMD% shell slogctl snap bugreport
+===== 2.1.9 Oct 31, 2013=====
+main:
+	add support get android 4.1_3.4 bt log
+detail:
+    add command
+	%ADB_CMD% pull /sdcard/btsnoop_hci.log %LOGDIR%/bt/
+===== 2.1.7 Oct 16, 2013=====
+main:
+	add new log capture
+	only for sprdroid4.0.3_vlx_3.0_13a_sc2390_dev
+detail:
+	add get NMEA about log capture command in StopLogging.bat
+===== 2.1.6 Oct 15, 2013=====
+main:
+    add command 
+    fix sysdump log lost on windows version
+detail:
+    - 
+===== 2.1.5 Aug 21, 2013=====
+main:
+    add command 
+    %ADB_CMD% shell "trw get legacy 2"
+    %ADB_CMD% shell "trw get legacy 8" 
+    for adapter new trw command
+detail:
+    add new command 
+===== 2.1.4 Jul 9, 2013=====
+main:
+    fix sysdump problem for name rule
+detail:
+    change sysdump_* to sysdump.core*
+===== 2.1.3 Jul 9, 2013=====
+main:
+    add capture bt/wifi register info
+detail:
+    add capture bt/wifi register info
+===== 2.1.2 Jul 5, 2013=====
+main:
+    add clear /data/corefile
+detail:
+    add command adb shell rm /data/corefile/*
+===== 2.1.1 Jun 27, 2013=====
+main:
+    fix can not fetch log at the first time
+detail:
+    add adb wait-for-device
+===== 2.1.0 Jun 14, 2013=====
+main:
+    add pull kernel panic core file
+detail:
+    get kernel panic core file
+===== 2.0.9 May 31, 2013=====
+main:
+    fix sp7710 on user version executing adb root block fetch log
+detail:
+    if not user version execute adb root
+===== 2.0.8 Apr 9, 2013=====
+main:
+    update "find" to "%FIND_CMD%"
+detail:
+    update script fix unable to execute find command while system miss find command
+===== 2.0.7 Mar 26, 2013=====
+main:
+    change command "adb cat /proc/asound/sprdphone/vbc " to execute 10 times
+detail:
+    execute adb cat /proc/asound/sprdphone/vbc $top_dir/audio ten times
+===== 2.0.6 Mar 14, 2013=====
+main:
+    add get audio logs
+detail:
+    adb pull /proc/asound/sprdphone/vbc $top_dir/audio
+    adb pull /proc/asound/sprdphone/sprd-codec $top_dir/audio
+    adb pull /proc/asound/sprdphone/pcm0p/sub0/status $top_dir/audio
+    adb shell tinymix > $top_dir/audio/tinymix.log
+===== 2.0.5 Feb 18, 2013=====
+main:
+    update "adb pull /data/core_file  %LOGDIR%/core_file" to "adb pull /data/corefile  %LOGDIR%/corefile"
+detail:
+	update "adb pull /data/core_file  %LOGDIR%/core_file" to "adb pull /data/corefile  %LOGDIR%/corefile"
+===== 2.0.4 Jan 29, 2013=====
+main:
+    add adb pull /data/core_file  %LOGDIR%/core_file
+detail:
+	add pull core_file
+===== 2.0.3 Jan 11, 2013=====
+main:
+    add adb pull /data/data/com.android.providers.telephony/ %LOGDIR%/mms
+    add adb pull /sdcard/modem_memory.log $top_dir/internal_storage/
+    add adb pull /sdcard/external/modem_memory.log $top_dir/external_storage/
+detail:
+	add pull mms
+	add pull modem_memory log
+===== 2.0.2 Jan 08, 2013=====
+main:
+    add adb pull /data/system/dropbox and adb pull /data/misc/hprofs
+	add adb shell slogctl clear command for clear device log after capture log
+detail:
+	fix clear old log on devie
+===== 2.0.1 Nov 23, 2012=====
+main:
+	error ocur while path has space
+detail:
+	fixed error while path to store tools has space
+===== 2.0.0 Nov 19, 2012=====
+main:
+	initialize new tools for specific tools
+detail:
+	initialize the tools to adapter new log system on DUT,
+	this version works only part of sprd devices such as android 4.0.3 main branch
+	

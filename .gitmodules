@@ -1,0 +1,3 @@
+[submodule "software/googleAppEngine/samples/goAgent"]
+	path = software/googleAppEngine/samples/goAgent
+	url = https://github.com/GdZ/goagent.git
