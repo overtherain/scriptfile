@@ -33,3 +33,4 @@ ln -s ${MSHELL}/bin/QIpmsg ${MSHELL}/run/ipmsg
 
 ln -s ${MSHELL}/sh/menu.sh ${MSHELL}/run/menu
 
+ln -s ${MSHELL}/sh/goagent.sh ${MSHELL}/run/goagent
