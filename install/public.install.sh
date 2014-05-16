@@ -5,6 +5,7 @@ ln -s ${MSHELL}/sh/screenshot ${MSHELL}/run/screenshot
 
 ## create daliy.push.report
 ln -s ${MSHELL}/sh/daliy.report.sh ${MSHELL}/run/daliy.push.report
+ln -s ${MSHELL}/sh/daliy.report.daemon.sh ${MSHELL}/run/daliy.push.daemon
 
 ## display mount as tab
 ln -s ${MSHELL}/sh/mounttab.sh ${MSHELL}/run/mounttab
