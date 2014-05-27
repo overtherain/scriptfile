@@ -11,10 +11,15 @@ cd ${REPORT_DIR}
 #========================================
 # v0.0.1
 #========================================
+AREA_FILE="${AREA_FILE}${cTime}.cvs"
+TYPE_FILE="${TYPE_FILE}${cTime}.cvs"
+
 echo "area's url: "${AREA_URL}
 echo "area's file: "${AREA_FILE}
+
 curl -k ${AREA_URL} > ${AREA_FILE}
 cat ${AREA_FILE}
+
 echo ${TYPE_URL}
 echo ${TYPE_FILE}
 curl -k ${TYPE_URL} > ${TYPE_FILE}
