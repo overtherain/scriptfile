@@ -3,15 +3,15 @@
 ch=$1
 case $ch in
 	y|Y|yes|Yes|YES)
-		echo "Mount shareusr to local:"
+		echo "Mount share to local:"
 		sshfs ${BUILD_SERVER_USER0}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER0} ${MNT_ROOT}/${BUILD_SERVER_USER0}
 		;;
 	${BUILD_SERVER_USER1})
-		echo "Mount yanjiaxi to local:"
+		echo "Mount yjx to local:"
 		sshfs ${BUILD_SERVER_USER1}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER1} ${MNT_ROOT}/${BUILD_SERVER_USER1}
 		;;
 	${BUILD_SERVER_USER2})
-		echo "Mount xuyouqin to local:"
+		echo "Mount xyq to local:"
 		sshfs ${BUILD_SERVER_USER2}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER2} ${MNT_ROOT}/${BUILD_SERVER_USER2}
 		;;
 	*)
