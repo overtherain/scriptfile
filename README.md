@@ -6,8 +6,11 @@ some useful script
 2014.06.11 ver.0.0.2
 ---------------------
 1.Add tool-kit
+
 2.Add ext4-utils module source code
+
 3.Add ext4-utils build binary files
+
 4.Add tool-kit/out to env
 
 
