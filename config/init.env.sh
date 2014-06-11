@@ -5,3 +5,5 @@ source ~/shell/config/public.env.sh
 ## private env settings, maybe not available to public
 source ~/shell/config/private.env.sh
 source ~/shell/config/project.env.sh
+
+source ~/shell/config/val.env.sh
