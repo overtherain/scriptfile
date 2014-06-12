@@ -4,3 +4,6 @@
 [submodule "tool-kit/ext4-utils"]
 	path = tool-kit/ext4-utils
 	url = https://github.com/YuLaw/ext4-utils.git
+[submodule "tool-kit/init_android_env"]
+	path = tool-kit/init_android_env
+	url = git@github.com:GdZ/init_android_env.git
