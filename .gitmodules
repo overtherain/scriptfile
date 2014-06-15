@@ -7,3 +7,6 @@
 [submodule "tool-kit/init_android_env"]
 	path = tool-kit/init_android_env
 	url = git@github.com:GdZ/init_android_env.git
+[submodule "py/monkeyrunner"]
+	path = py/monkeyrunner
+	url = git@github.com:GdZ/AutoTest.git
