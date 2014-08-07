@@ -1,2 +1,2 @@
 #!/bin/bash
-LANG=C ssh ${BUILD_SERVER} -l ${BUILD_SERVER_USER} -v
+LANG=C ssh -o PubkeyAuthentication=no ${BUILD_SERVER} -l ${BUILD_SERVER_USER} -v
