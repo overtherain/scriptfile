@@ -2,9 +2,8 @@
 ########################################################
 # self define
 export WORKDIR=${HOME}/android
-export JAVA_DIR=/usr/lib/jvm/java-6-sun
+export JAVA_HOME=/usr/lib/jvm/java-6-sun
 export BRANCH_DIR=${HOME}/develop/branch.git
-export JAVA_HOME=$JAVA_DIR
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export SDK_HOME=$WORKDIR/android-sdk-linux
 export NDK_HOME=$WORKDIR/android-ndk-linux
