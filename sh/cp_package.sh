@@ -18,7 +18,7 @@ destPath="${pDir}/"
 destName="${mdir}_${zipstr}"
 echo "src:${srcPath}${srcName}"
 echo "dest:${destPath}${destName}"
-#Eecho "$srcPath$srcName $destPath$destName"
+echo "$srcPath$srcName $destPath$destName"
 cp -rvf $srcPath$srcName $destPath$destName
 #echo "$destName.zip $destName"
 #zip -r1 $destName.zip $destName
