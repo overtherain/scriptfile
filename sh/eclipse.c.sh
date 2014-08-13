@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ${HOME}/eclipse.c
+cd ${MSOFT}/eclipse.c
 ./eclipse &

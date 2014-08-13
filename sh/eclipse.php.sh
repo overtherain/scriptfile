@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ${HOME}/eclipse.php
+cd ${MSOFT}/eclipse.php
 ./eclipse &
