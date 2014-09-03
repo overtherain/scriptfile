@@ -5,7 +5,10 @@
 export PATH=$PATH:${HOME}/tizen/tizen-sdk/tools
 
 ## value the varables
-export PATH=$JAVA_HOME/bin:$SDK_HOME/tools:$SDK_HOME/platform-tools:$SDK_HOME/build-tools/17.0.0:$WORKDIR/eclipse:/sbin:/usr/sbin:$PATH
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$SDK_HOME/tools:$SDK_HOME/platform-tools:$SDK_HOME/build-tools/17.0.0:$PATH
+export PATH=$NDK_HOME:$PATH
+export PATH=$WORKDIR/eclipse:/sbin:/usr/sbin:$PATH
 export PATH=/opt/qt5/bin:$PATH
 export PATH=${MSHELL}/run:$PATH
 
