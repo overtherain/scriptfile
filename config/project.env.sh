@@ -16,3 +16,6 @@ export ECLIPSE_HOME=$WORKDIR/eclipse
 export MSHELL=${HOME}/shell
 export MSOFT=${HOME}/software
 
+# self software path
+export GOROOT=${MSOFT}/go
+

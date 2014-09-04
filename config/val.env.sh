@@ -14,3 +14,6 @@ export PATH=${MSHELL}/run:$PATH
 
 ## modify @2014.06.11 for tool-kit project modules
 export PATH=${MSHELL}/tool-kit/out:$PATH
+
+## modify @2014.09.04 for go language
+export PATH=${GOROOT}/bin:$PATH
