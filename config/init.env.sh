@@ -6,4 +6,5 @@ source ~/shell/config/public.env.sh
 source ~/shell/config/private.env.sh
 source ~/shell/config/project.env.sh
 
+## value variables
 source ~/shell/config/val.env.sh
