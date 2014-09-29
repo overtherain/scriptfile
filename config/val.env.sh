@@ -5,10 +5,15 @@
 export PATH=$PATH:${HOME}/tizen/tizen-sdk/tools
 
 ## value the varables
-#unset JAVA_HOME
-export PATH=$JAVA_HOME/bin:$SDK_HOME/tools:$SDK_HOME/platform-tools:$SDK_HOME/build-tools/17.0.0:$WORKDIR/eclipse:/sbin:/usr/sbin:$PATH
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$SDK_HOME/tools:$SDK_HOME/platform-tools:$SDK_HOME/build-tools/17.0.0:$PATH
+export PATH=$NDK_HOME:$PATH
+export PATH=$WORKDIR/eclipse:/sbin:/usr/sbin:$PATH
 export PATH=/opt/qt5/bin:$PATH
 export PATH=${MSHELL}/run:${MSHELL}/bin:$PATH
 
 ## modify @2014.06.11 for tool-kit project modules
 export PATH=${MSHELL}/tool-kit/out:$PATH
+
+## modify @2014.09.04 for go language
+export PATH=${GOROOT}/bin:$PATH

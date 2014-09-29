@@ -4,6 +4,7 @@
 export WORKDIR=${HOME}/android
 export JAVA_HOME=/usr/lib/jvm/java-6-sun
 #export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+#export JAVA_HOME=/usr/lib/jvm/openjdk-7-amd64
 export BRANCH_DIR=${HOME}/develop/branch.git
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export SDK_HOME=$WORKDIR/android-sdk-linux
@@ -15,4 +16,7 @@ export ECLIPSE_HOME=$WORKDIR/eclipse
 # self script path
 export MSHELL=${HOME}/shell
 export MSOFT=${HOME}/software
+
+# self software path
+export GOROOT=${MSOFT}/go
 

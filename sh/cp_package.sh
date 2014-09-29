@@ -20,5 +20,13 @@ echo "src:${srcPath}${srcName}"
 echo "dest:${destPath}${destName}"
 echo "$srcPath$srcName $destPath$destName"
 cp -rvf $srcPath$srcName $destPath$destName
-#echo "$destName.zip $destName"
-#zip -r1 $destName.zip $destName
+
+read -p "Are you want to pack the image files? [y]" ch
+case $ch in
+	y|Y|Yes|YES)
+		echo "$destName.zip $destName"
+		zip -r1 $destName.zip $destName
+		;;
+	*)
+		;;
+esac

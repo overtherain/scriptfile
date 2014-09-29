@@ -61,3 +61,4 @@ alias LC_ALL="zh_CN.UTF-8"
 # All branch finish
 alias ll='ls -l'
 alias lla='ls -Al'
+alias dir='dir --color=auto'
