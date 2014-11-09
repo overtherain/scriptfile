@@ -1,0 +1,9 @@
+#!/bin/sh
+### @2014.10.05
+## Fixed sogo input method cannot avaiable in sublime_text tools
+## old command
+#exec /opt/sublime_text/sublime_text "$@"
+## new command
+LD_PRELOAD=/home/self/shell/libs/libsublime-imfix.so exec /opt/sublime_text/sublime_text "$@"
+## Fixed sogo input method cannot avaiable in sublime_text tools
+### @2014.10.05
