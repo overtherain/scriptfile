@@ -28,14 +28,15 @@ alias gl="git log --name-status --color=auto --graph"
 alias ga="git add"
 alias gd="git diff --color=auto"
 alias gb="git branch"
-alias gbr="git branch -r"
-alias gba="git branch -a"
 alias gc="git checkout"
 alias gp="git pull"
 alias gu="git push"
 alias gs="git status"
-alias gss="git status -s"
 alias gw="git whatchanged"
+alias gss="git status -s"
+alias gbr="git branch -r"
+alias gba="git branch -a"
+alias gcfg="git config -l"
 alias gcls="git status -s | grep \"??\" | awk '{print $2}' | xargs rm -rvf"
 #
 #######################################################
@@ -60,5 +61,6 @@ alias LC_ALL="zh_CN.UTF-8"
 #
 # All branch finish
 alias ll='ls -l'
+alias llh='ls -lh'
 alias lla='ls -Al'
 alias dir='dir --color=auto'
