@@ -17,5 +17,5 @@
 	path = eDict
 	url = git@github.com:GdZ/eDict.git
 [submodule "tool-kit/excel-writer-xlsx"]
-	path = tool-kit/excel-writer-xlsx
+	path = tool-kit/perl-modules/excel-writer-xlsx
 	url = https://github.com/jmcnamara/excel-writer-xlsx.git
