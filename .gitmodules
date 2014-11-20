@@ -22,3 +22,6 @@
 [submodule "IDE/go"]
 	path = IDE/go
 	url = https://github.com/tav/go.git
+[submodule "docs"]
+	path = docs
+	url = git@code.csdn.net:zgd1348833/docs.git
