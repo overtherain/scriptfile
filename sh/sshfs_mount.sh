@@ -23,6 +23,11 @@ case $ch in
 		echo sshfs ${BUILD_SERVER_USER3}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER3} ${MNT_ROOT}/${BUILD_SERVER_USER3}
 		sshfs ${BUILD_SERVER_USER3}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER3} ${MNT_ROOT}/${BUILD_SERVER_USER3}
 		;;
+	${BUILD_SERVER_USER4})
+		echo "Mount yjx to local:"
+		echo sshfs ${BUILD_SERVER_USER4}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER4} ${MNT_ROOT}/${BUILD_SERVER_USER4}
+		sshfs ${BUILD_SERVER_USER4}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER4} ${MNT_ROOT}/${BUILD_SERVER_USER4}
+		;;
 	*)
 		echo "Mount self to local:"
 		echo sshfs ${BUILD_SERVER_USER}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER} ${MNT_ROOT}/server
