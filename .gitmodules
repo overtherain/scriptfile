@@ -25,3 +25,6 @@
 [submodule "docs"]
 	path = docs
 	url = git@code.csdn.net:zgd1348833/docs.git
+[submodule "config"]
+	path = config
+	url = git@192.168.1.148:config.git
