@@ -28,3 +28,6 @@
 [submodule "config"]
 	path = config
 	url = git@192.168.1.148:config.git
+[submodule "tool-kit/host.def"]
+	path = tool-kit/host.def
+	url = git@github.com:GdZ/google-hosts.git
