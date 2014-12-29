@@ -31,3 +31,6 @@
 [submodule "tool-kit/host.def"]
 	path = tool-kit/host.def
 	url = git@github.com:GdZ/google-hosts.git
+[submodule "mobile/osmocom-bb"]
+	path = mobile/osmocom-bb
+	url = git@github.com:korczis/osmocom-bb.git
