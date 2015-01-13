@@ -1,9 +1,19 @@
-config/private.env.sh
+# public settings cannot be ignore
 #config/project.env.sh
-driver/
-install/private.install.sh
 #install/project.install.sh
+
+####################################################
+# private settings must be ignore
+install/private.install.sh
+config/private.env.sh
+sh/netrc
+
+####################################################
+# this is 
+driver/
 run/
+
+# Sprd Log tools package, no need to track these files
 sh/Log4Android2PCv2.0.6.rar
 sh/Log4Android2PCv2.1.6.zip
 sh/Log4Android2PCv2.1.9.zip
@@ -13,5 +23,6 @@ sh/adb_restart.sh.zip
 sh/android4.0_root.sh
 sh/chkbugreport-0.4-164.zip
 sh/gat-linux-x86_64-3/
-sh/netrc
-test/
+
+# This is a test folder, no need to track status
+ssh-keygen/

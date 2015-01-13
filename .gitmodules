@@ -1,3 +1,36 @@
 [submodule "software/googleAppEngine/samples/goAgent"]
 	path = software/googleAppEngine/samples/goAgent
 	url = https://github.com/GdZ/goagent.git
+[submodule "tool-kit/ext4-utils"]
+	path = tool-kit/ext4-utils
+	url = https://github.com/YuLaw/ext4-utils.git
+[submodule "tool-kit/init_android_env"]
+	path = tool-kit/init_android_env
+	url = git@github.com:GdZ/init_android_env.git
+[submodule "py/monkeyrunner"]
+	path = py/monkeyrunner
+	url = git@github.com:GdZ/AutoTest.git
+[submodule "jsonTest"]
+	path = jsonTest
+	url = git@github.com:GdZ/jsonTest.git
+[submodule "eDict"]
+	path = eDict
+	url = git@github.com:GdZ/eDict.git
+[submodule "tool-kit/excel-writer-xlsx"]
+	path = tool-kit/perl-modules/excel-writer-xlsx
+	url = https://github.com/jmcnamara/excel-writer-xlsx.git
+[submodule "IDE/go"]
+	path = IDE/go
+	url = https://github.com/tav/go.git
+[submodule "docs"]
+	path = docs
+	url = git@code.csdn.net:zgd1348833/docs.git
+[submodule "config"]
+	path = config
+	url = git@192.168.1.148:config.git
+[submodule "tool-kit/host.def"]
+	path = tool-kit/host.def
+	url = git@github.com:GdZ/google-hosts.git
+[submodule "mobile/osmocom-bb"]
+	path = mobile/osmocom-bb
+	url = git@github.com:korczis/osmocom-bb.git

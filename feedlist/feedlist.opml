@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="Beispiel-Abonnements" text="Beispiel-Abonnements" description="Beispiel-Abonnements" type="folder">
+      <outline title="Deutsch" text="Deutsch" description="Deutsch" type="folder">
+        <outline title="News" text="News" description="News" type="folder">
+          <outline title="Tagesschau" text="Tagesschau" description="Tagesschau" type="rss" xmlUrl="http://www.tagesschau.de/newsticker.rdf" htmlUrl="http://www.tagesschau.de"/>
+          <outline title="Netzeitung" text="Netzeitung" description="Netzeitung" type="rss" xmlUrl="http://www.netzeitung.de/feed/" htmlUrl="http://www.netzeitung.de"/>
+          <outline title="Heise Online" text="Heise Online" description="Heise Online" type="rss" xmlUrl="http://www.heise.de/newsticker/heise-atom.xml" htmlUrl="http://www.heise.de/newsticker/"/>
+          <outline title="golem.de" text="golem.de" description="golem.de" type="atom" xmlUrl="http://www.golem.de/rss.php?feed=ATOM1.0" htmlUrl="http://www.golem.de/"/>
+        </outline>
+        <outline title="Podcasts" text="Podcasts" description="Podcasts" type="folder">
+          <outline title="Chaos Radio" text="Chaos Radio" description="Chaos Radio" type="rss" xmlUrl="http://chaosradio.ccc.de/chaosradio-complete.rss" htmlUrl="http://chaosradio.ccc.de/chaosradio.html"/>
+        </outline>
+      </outline>
+      <outline title="International" text="International" description="International" type="folder">
+        <outline title="News" text="News" description="News" type="folder">
+          <outline title="Ars Technica" text="Ars Technica" description="Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/index" htmlUrl="http://arstechnica.com"/>
+          <outline title="Slashdot" text="Slashdot" description="Slashdot" type="rss" xmlUrl="http://slashdot.org/slashdot.rss" htmlUrl="http://slashdot.org/"/>
+          <outline title="BBC" text="BBC" description="BBC" xmlUrl="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml" htmlUrl=""/>
+          <outline title="Science" text="Science" description="Science" xmlUrl="http://www.sciencenews.org/view/feed/type/news/name/news.rss" htmlUrl=""/>
+        </outline>
+        <outline title="Open Source" text="Open Source" description="Open Source" type="folder">
+          <outline title="Planet Ubuntu" text="Planet Ubuntu" description="Planet Ubuntu" type="rss" xmlUrl="http://planet.ubuntu.com/rss20.xml" htmlUrl="http://planet.ubuntu.com/"/>
+          <outline title="The Ubuntu Fridge" text="The Ubuntu Fridge" description="The Ubuntu Fridge" xmlUrl="http://fridge.ubuntu.com/node/feed" htmlUrl=""/>
+          <outline title="Ubuntuusers Ikhaya" text="Ubuntuusers Ikhaya" description="Ubuntuusers Ikhaya" type="atom" xmlUrl="http://ikhaya.ubuntuusers.de/feeds/full/20/" htmlUrl="http://ikhaya.ubuntuusers.de/"/>
+          <outline title="Liferea Blog" text="Liferea Blog" description="Liferea Blog" xmlUrl="http://feeds.feedburner.com/LifereaBlog" htmlUrl=""/>
+          <outline title="Planet GNOME" text="Planet GNOME" description="Planet GNOME" type="atom" xmlUrl="http://planet.gnome.org/atom.xml" htmlUrl="http://planet.gnome.org/"/>
+        </outline>
+        <outline title="Podcasts &amp; Music" text="Podcasts &amp; Music" description="Podcasts &amp; Music" type="folder">
+          <outline title="EscapePod" text="EscapePod" description="EscapePod" type="rss" xmlUrl="http://escapepod.org/podcast.xml" htmlUrl="http://escapepod.org"/>
+          <outline title="Free Music Archive" text="Free Music Archive" description="Free Music Archive" type="atom" xmlUrl="http://freemusicarchive.org/recent.atom" htmlUrl=""/>
+          <outline title="Gorilla vs. Bear" text="Gorilla vs. Bear" description="Gorilla vs. Bear" type="rss" xmlUrl="http://www.gorillavsbear.net/category/mp3/feed/" htmlUrl="http://www.gorillavsbear.net"/>
+        </outline>
+        <outline title="Comics" text="Comics" description="Comics" type="folder">
+          <outline title="xkcd" text="xkcd" description="xkcd" type="atom" xmlUrl="http://xkcd.com/atom.xml" htmlUrl="http://xkcd.com/"/>
+        </outline>
+      </outline>
+      <outline title="self.favor" text="self.favor" description="self.favor" type="folder">
+        <outline title="WooYun&#x77E5;&#x8BC6;&#x5E93;" text="WooYun&#x77E5;&#x8BC6;&#x5E93;" description="WooYun&#x77E5;&#x8BC6;&#x5E93;" type="rss" xmlUrl="http://drops.wooyun.org/feed" htmlUrl="http://drops.wooyun.org"/>
+        <outline title="OneV's Den" text="OneV's Den" description="OneV's Den" type="rss" xmlUrl="http://onevcat.com/rss/" htmlUrl="http://onevcat.com/"/>
+        <outline title="CSDN &#x6781;&#x5BA2;&#x5934;&#x6761;(&#x6700;&#x65B0;)" text="CSDN &#x6781;&#x5BA2;&#x5934;&#x6761;(&#x6700;&#x65B0;)" description="CSDN &#x6781;&#x5BA2;&#x5934;&#x6761;(&#x6700;&#x65B0;)" type="rss" xmlUrl="http://geek.csdn.net/news/rss" htmlUrl="http://geek.csdn.net"/>
+        <outline title="CSDN &#x7A0B;&#x5E8F;&#x5458;&#x6742;&#x5FD7;" text="CSDN &#x7A0B;&#x5E8F;&#x5458;&#x6742;&#x5FD7;" description="CSDN &#x7A0B;&#x5E8F;&#x5458;&#x6742;&#x5FD7;" type="rss" xmlUrl="http://programmer.csdn.net/rss_programmer.html" htmlUrl="http://programmer.csdn.net"/>
+        <outline title="CSDN&#x535A;&#x5BA2;&#x63A8;&#x8350;&#x6587;&#x7AE0;" text="CSDN&#x535A;&#x5BA2;&#x63A8;&#x8350;&#x6587;&#x7AE0;" description="CSDN&#x535A;&#x5BA2;&#x63A8;&#x8350;&#x6587;&#x7AE0;" type="rss" xmlUrl="http://blog.csdn.net/rss.html" htmlUrl="http://blog.csdn.net"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

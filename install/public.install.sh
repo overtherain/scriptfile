@@ -7,6 +7,10 @@ ln -s ${MSHELL}/sh/screenshot ${MSHELL}/run/screenshot
 ln -s ${MSHELL}/sh/daliy.report.sh ${MSHELL}/run/daliy.push.report
 ln -s ${MSHELL}/sh/daliy.report.daemon.sh ${MSHELL}/run/daliy.push.daemon
 
+# development kit tools
+ln -s ${MSHELL}/sh/eclipse.php.sh ${MSHELL}/run/eclipse.php
+ln -s ${MSHELL}/sh/eclipse.c.sh ${MSHELL}/run/eclipse.c
+
 ## display mount as tab
 ln -s ${MSHELL}/sh/mounttab.sh ${MSHELL}/run/mounttab
 
