@@ -34,3 +34,6 @@
 [submodule "mobile/osmocom-bb"]
 	path = mobile/osmocom-bb
 	url = git@github.com:korczis/osmocom-bb.git
+[submodule "tool-kit/remote-desktop-clients"]
+	path = tool-kit/remote-desktop-clients
+	url = https://github.com/iiordanov/remote-desktop-clients.git
