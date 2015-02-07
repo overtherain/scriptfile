@@ -37,3 +37,9 @@
 [submodule "projects/image.cached/picasso"]
 	path = projects/image.cached/picasso
 	url = git@github.com:square/picasso.git
+[submodule "mobile/osmocom-bb"]
+	path = mobile/osmocom-bb
+	url = git@github.com:korczis/osmocom-bb.git
+[submodule "tool-kit/remote-desktop-clients"]
+	path = tool-kit/remote-desktop-clients
+	url = https://github.com/iiordanov/remote-desktop-clients.git

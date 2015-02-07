@@ -1,7 +1,16 @@
 #!/bin/bash
-ct=`ps aux | grep adb | grep root | wc -l`
+ps aux | grep adb | grep root | grep -v 'grep'
+ct=`ps aux | grep adb | grep root | grep -v 'grep' | wc -l`
 lsusb
 echo adbd count is : $ct
+echo `which adb` kill-server
+`which adb` kill-server
+echo sudo `which adb` start-server
+sudo `which adb` start-server
+echo `which adb` devices
+`which adb` devices
+exit 0
+## the bellow is for normal
 case $ct in
 	0)
 		echo No need root permission
@@ -14,11 +23,11 @@ case $ct in
 		;;
 	*)
 		echo Need root permission
-		echo sudo `which adb` kill-server
-		sudo `which adb` kill-server
+		echo `which adb` kill-server
+		`which adb` kill-server
 		echo sudo `which adb` start-server
 		sudo `which adb` start-server
-		echo sudo `which adb` devices
-		sudo `which adb` devices
+		echo `which adb` devices
+		`which adb` devices
 		;;
 esac
