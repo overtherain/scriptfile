@@ -31,3 +31,9 @@
 [submodule "tool-kit/host.def"]
 	path = tool-kit/host.def
 	url = git@github.com:GdZ/google-hosts.git
+[submodule "projects/Android-Universal-Image-Loader"]
+	path = projects/Android-Universal-Image-Loader
+	url = git@github.com:nostra13/Android-Universal-Image-Loader.git
+[submodule "projects/image.cached/picasso"]
+	path = projects/image.cached/picasso
+	url = git@github.com:square/picasso.git
