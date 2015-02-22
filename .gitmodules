@@ -43,3 +43,6 @@
 [submodule "tool-kit/remote-desktop-clients"]
 	path = tool-kit/remote-desktop-clients
 	url = https://github.com/iiordanov/remote-desktop-clients.git
+[submodule "sites/PHPMailer"]
+	path = sites/PHPMailer
+	url = https://github.com/Synchro/PHPMailer.git
