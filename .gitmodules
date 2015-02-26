@@ -46,3 +46,7 @@
 [submodule "tool-kit/repo"]
 	path = tool-kit/repo
 	url = git@192.168.1.148:repo.git
+[submodule "sites/PHPMailer"]
+	path = sites/PHPMailer
+	url = https://github.com/Synchro/PHPMailer.git
+
