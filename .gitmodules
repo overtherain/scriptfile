@@ -50,3 +50,6 @@
 	path = sites/PHPMailer
 	url = https://github.com/Synchro/PHPMailer.git
 
+[submodule "software/homebrew"]
+	path = software/homebrew
+	url = https://github.com/mxcl/homebrew.git
