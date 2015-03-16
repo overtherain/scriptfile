@@ -53,3 +53,15 @@
 [submodule "software/homebrew"]
 	path = software/homebrew
 	url = https://github.com/mxcl/homebrew.git
+[submodule "tool-kit/solarized"]
+	path = tool-kit/solarized
+	url = https://github.com/altercation/solarized.git
+[submodule "projects/gfw/openwrt-gfw"]
+	path = projects/gfw/openwrt-gfw
+	url = https://github.com/hackgfw/openwrt-gfw.git
+[submodule "projects/gfw/openwrt-fanqiang"]
+	path = projects/gfw/openwrt-fanqiang
+	url = https://github.com/softwaredownload/openwrt-fanqiang.git
+[submodule "projects/openwrt"]
+	path = projects/openwrt
+	url = https://github.com/openwrt-mirror/openwrt.git
