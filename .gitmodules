@@ -49,7 +49,9 @@
 [submodule "sites/PHPMailer"]
 	path = sites/PHPMailer
 	url = https://github.com/Synchro/PHPMailer.git
-
+[submodule "tool-kit/MemTest"]
+	path = tool-kit/MemTest
+	url = git@192.168.8.101:MemTest.git
 [submodule "software/homebrew"]
 	path = software/homebrew
 	url = https://github.com/mxcl/homebrew.git
