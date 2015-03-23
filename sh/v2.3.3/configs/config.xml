@@ -1,0 +1,207 @@
+
+<!-- 
+DATE_INTERNAL 2014-06-03-19-27-04
+DATEINTERNAL_LASTLOG 2014-06-03-19-22-59
+DATEEXTERNAL_LASTLOG 2014-06-03-19-23-20
+DATE_EXTERNAL 2014-06-03-19-27-25
+base 
+['toolsversion.txt'
+ro.build.fingerprint.txt', 
+'internal_storage/2014-06-03-19-27-04/android/0-events-19-27-05.log', 
+'internal_storage/2014-06-03-19-27-04/android/0-main-19-27-05.log', 
+'internal_storage/2014-06-03-19-27-04/android/0-radio-19-27-05.log', 
+'internal_storage/2014-06-03-19-27-04/android/0-system-19-27-05.log',
+'internal_storage/2014-06-03-19-27-04/kernel/0-kernel-19-27-04.log', 
+'internal_storage/2014-06-03-19-27-04/misc/traces.log', 
+'internal_storage/2014-06-03-19-27-04/misc/last_kmsg.log', 
+'internal_storage/2014-06-03-19-27-04/misc/cmdline.log', 
+'internal_storage/2014-06-03-19-27-04/misc/snapshot_19-27-04.log',
+'internal_storage/last_log/2014-06-03-19-22-59/android/0-radio-19-22-59.log',
+'internal_storage/last_log/2014-06-03-19-22-59/android/0-main-19-22-59.log', 
+'internal_storage/last_log/2014-06-03-19-22-59/android/0-events-19-22-59.log',
+'internal_storage/last_log/2014-06-03-19-22-59/android/0-system-19-22-59.log', 
+'internal_storage/last_log/2014-06-03-19-22-59/kernel/0-kernel-19-22-59.log', 
+'internal_storage/last_log/2014-06-03-19-22-59/misc/traces.log', 
+'internal_storage/last_log/2014-06-03-19-22-59/misc/last_kmsg.log', 
+'internal_storage/last_log/2014-06-03-19-22-59/misc/cmdline.log', 
+'internal_storage/last_log/2014-06-03-19-22-59/misc/snapshot_19-22-59.log', 
+'ffos/profiles.ini', 
+'ffos/Crash Reports/InstallTime20140531102138', 
+'ffos/4ck57787.default/key4.db', 
+'ffos/4ck57787.default/cookies.sqlite', 
+'ffos/4ck57787.default/webappsstore.sqlite', 
+'ffos/4ck57787.default/.parentlock', 
+'ffos/4ck57787.default/notificationstore.json', 
+'ffos/4ck57787.default/compatibility.ini', 
+'ffos/4ck57787.default/cookies.sqlite-wal', 
+'ffos/4ck57787.default/webappsstore.sqlite-shm', 
+'ffos/4ck57787.default/pkcs11.txt', 
+'ffos/4ck57787.default/cookies.sqlite-shm', 
+'ffos/4ck57787.default/times.json', 
+'ffos/4ck57787.default/formhistory.sqlite', 
+'ffos/4ck57787.default/prefs.js', 
+'ffos/4ck57787.default/cert9.db', 
+'ffos/4ck57787.default/webappsstore.sqlite-wal', 
+'ffos/4ck57787.default/startupCache/startupCache.4.little', 
+'audio/vbc-10', 
+'audio/vbc-6', 
+'audio/vbc-7', 
+'audio/sprd-codec', 
+'audio/vbc-4'
+audio/vbc-1', 
+'audio/status'
+audio/tinymix.log', 
+'audio/vbc-2'
+audio/vbc-5'
+audio/vbc-3', 
+'audio/vbc-8'
+audio/vbc-9', 
+'external_storage/last_log/2014-06-03-19-23-20/dropbox.tgz', 
+'external_storage/last_log/2014-06-03-19-23-20/android/0-main-19-23-22.log', 
+'external_storage/last_log/2014-06-03-19-23-20/android/0-system-19-23-22.log'
+external_storage/last_log/2014-06-03-19-23-20/android/0-radio-19-23-22.log'
+external_storage/last_log/2014-06-03-19-23-20/android/0-events-19-23-22.log'
+external_storage/last_log/2014-06-03-19-23-20/kernel/0-kernel-19-23-22.log'
+external_storage/last_log/2014-06-03-19-23-20/misc/traces.log'
+external_storage/last_log/2014-06-03-19-23-20/misc/last_kmsg.log'
+external_storage/last_log/2014-06-03-19-23-20/misc/cmdline.log'
+external_storage/last_log/2014-06-03-19-23-20/misc/snapshot_19-23-20.log'
+external_storage/2014-06-03-19-27-25/dropbox.tgz'
+external_storage/2014-06-03-19-27-25/android/0-radio-19-27-26.log'
+external_storage/2014-06-03-19-27-25/android/0-events-19-27-26.log'
+external_storage/2014-06-03-19-27-25/android/0-main-19-27-26.log'
+external_storage/2014-06-03-19-27-25/android/0-system-19-27-26.log'
+external_storage/2014-06-03-19-27-25/kernel/0-kernel-19-27-26.log'
+external_storage/2014-06-03-19-27-25/misc/traces.log'
+external_storage/2014-06-03-19-27-25/misc/last_kmsg.log'
+external_storage/2014-06-03-19-27-25/misc/snapshot_19-27-25.log'
+external_storage/2014-06-03-19-27-25/misc/cmdline.log'
+external_storage/2014-06-03-19-27-25/misc/snapshot_19-31-12.log'
+external_storage/2014-06-03-19-27-25/misc/screenshot_19-31-11.jpg'
+sysdump/sysdump.core.00'
+bugreport/bugreport.log']
+['internal_storage'
+mms'
+ffos'
+corefile', 
+'cg'
+audio'
+bt_reg'
+dropbox'
+hprofs'
+wifi_reg', 
+'bt'
+external_storage'
+sysdump'
+media'
+bugreport', 
+'contact'
+internal_storage/2014-06-03-19-27-04', 
+'internal_storage/last_log'
+internal_storage/2014-06-03-19-27-04/android',
+'internal_storage/2014-06-03-19-27-04/kernel',
+'internal_storage/2014-06-03-19-27-04/misc', 
+'internal_storage/last_log/2014-06-03-19-22-59', 
+'internal_storage/last_log/2014-06-03-19-22-59/android',
+'internal_storage/last_log/2014-06-03-19-22-59/kernel', 
+'internal_storage/last_log/2014-06-03-19-22-59/misc',
+'ffos/Crash Reports'
+ffos/4ck57787.default', 
+'ffos/4ck57787.default/startupCache'
+external_storage/last_log', 
+'external_storage/2014-06-03-19-27-25',
+'external_storage/last_log/2014-06-03-19-23-20', 
+'external_storage/last_log/2014-06-03-19-23-20/android', 
+'external_storage/last_log/2014-06-03-19-23-20/kernel', 
+'external_storage/last_log/2014-06-03-19-23-20/misc',
+'external_storage/2014-06-03-19-27-25/android', 
+'external_storage/2014-06-03-19-27-25/kernel', 
+'external_storage/2014-06-03-19-27-25/misc']
+DATE_INTERNAL 2014-06-03-19-27-04
+DATEINTERNAL_LASTLOG 2014-06-03-19-22-59
+DATEEXTERNAL_LASTLOG 2014-06-03-19-23-20
+DATE_EXTERNAL 2014-06-03-19-27-25
+ -->
+<config>
+<!-- auto update config -->
+<update>
+<autoupdate>0</autoupdate>
+<downloadversion>http://localhost:9090/version</downloadversion>
+<downloadversion>http://localhost:9090/ddd.zip</downloadversion>
+</update>
+<!-- check file complication config -->
+<checkfile>
+<!-- hassubfiles subfilescount exist -->
+<file type="folder" ismust="0" checktype="common" checkitem="exist">external_storage/last_log/</file>
+<file type="folder" ismust="0" checktype="common" checkitem="exist">external_storage/DATE_EXTERNAL/</file>
+<file type="folder" ismust="1" checktype="common" checkitem="exist">internal_storage/</file>
+<file type="folder" ismust="1" checktype="common" checkitem="exist">internal_storage/DATE_INTERNAL/</file>
+<file type="folder" ismust="0" checktype="sysdump" checkitem="subfilescount" condition=">=3">sysdump</file>
+<file type="folder" ismust="0" checktype="common" checkitem="hassubfiles">ffos</file>
+<file type="folder" ismust="0" checktype="Bluetooth" checkitem="foldersize">external_storage/DATE_EXTERNAL/bt</file>
+<file type="folder" ismust="0" checktype="Bluetooth" checkitem="foldersize">external_storage/DATE_EXTERNAL/cp2</file>
+<file type="file" ismust="0" checktype="common" checkitem="exist">internal_storage/last_log/DATEINTERNAL_LASTLOG/misc/cmdline.log</file>
+<file type="file" ismust="0" checktype="common" checkitem="exist">internal_storage/last_log/DATEINTERNAL_LASTLOG/misc/traces.log</file>
+<file type="file" ismust="0" checktype="common" checkitem="exist">internal_storage/last_log/DATEINTERNAL_LASTLOG/misc/last_kmsg.log</file>
+<file type="folder" ismust="0" checktype="common" checkitem="exist">/tombstones/</file>
+</checkfile>
+<!-- problems needed files file contains key folder contains files with key-->
+<problemneededfile>
+<problem type="anr">
+<file type="folder" checkitem="android,main,event,kernel,snapshot">internal_storage/last_log/DATEINTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="android,main,event,kernel,snapshot">external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="android,main,event,kernel,snapshot">external_storage/DATE_EXTERNAL/</file>
+<file type="folder" checkitem="android,main,event,kernel,snapshot">internal_storage/DATE_INTERNAL/</file>
+</problem>
+
+<problem type="javacrash">
+<file type="folder" checkitem="system">internal_storage/last_log/DATEINTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="system">external_storage/last_log/DATEEXTERNAL_LASTLOG/android/</file>
+<file type="folder" checkitem="system">external_storage/DATE_EXTERNAL/</file>
+<file type="folder" checkitem="system">internal_storage/DATE_INTERNAL/</file>
+</problem>
+
+<problem type="nativecrash">
+<file type="folder">tombstones</file>
+</problem>
+
+<problem type="sysdump">
+<file type="folder" checkitem="kernel">internal_storage/</file>
+<file type="folder" checkitem="kernel">external_storage/</file>
+</problem>
+</problemneededfile>
+</config>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

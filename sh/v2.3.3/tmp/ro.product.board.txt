@@ -1,0 +1,1 @@
+[ro.product.board]: [sp7731gea]
