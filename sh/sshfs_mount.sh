@@ -5,7 +5,7 @@ echo IP:${IP}
 case $IP in
 	${BUILD_SERVER})
 		echo sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER}/develop ${MNT_ROOT}/develop
-		sshfs ${BUILD_SERVER_USER5}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER}/develop ${MNT_ROOT}/develop
+		sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER}/develop ${MNT_ROOT}/develop
 		echo sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER} ${MNT_ROOT}/home
 		sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER} ${MNT_ROOT}/home
 		exit 0;
