@@ -1,0 +1,27 @@
+diff --git a/idh.code/build/core/combo/HOST_linux-x86.mk b/idh.code/build/core/combo/HOST_linux-x86.mk
+index 5ae4972..f5e24cc 100644
+--- a/idh.code/build/core/combo/HOST_linux-x86.mk
++++ b/idh.code/build/core/combo/HOST_linux-x86.mk
+@@ -53,6 +53,6 @@ HOST_GLOBAL_CFLAGS += \
+ 	-include $(call select-android-config-h,linux-x86)
+ 
+ # Disable new longjmp in glibc 2.11 and later. See bug 2967937.
+-HOST_GLOBAL_CFLAGS += -D_FORTIFY_SOURCE=0
+-
++# HOST_GLOBAL_CFLAGS += -D_FORTIFY_SOURCE=0
++HOST_GLOBAL_CFLAGS += -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0
+ HOST_NO_UNDEFINED_LDFLAGS := -Wl,--no-undefined
+diff --git a/idh.code/frameworks/compile/linkloader/Android.mk b/idh.code/frameworks/compile/linkloader/Android.mk
+index c1d41d2..b920625 100644
+--- a/idh.code/frameworks/compile/linkloader/Android.mk
++++ b/idh.code/frameworks/compile/linkloader/Android.mk
+@@ -122,7 +122,8 @@ LOCAL_MODULE := test-librsloader
+ 
+ LOCAL_MODULE_TAGS := tests
+ 
+-LOCAL_LDFLAGS := \
++#LOCAL_LDFLAGS :=
++LOCAL_LDLIBS := \
+   -lpthread \
+   -ldl
+ 

@@ -67,3 +67,6 @@
 [submodule "projects/openwrt"]
 	path = projects/openwrt
 	url = https://github.com/openwrt-mirror/openwrt.git
+[submodule "tool-kit/git"]
+	path = tool-kit/git
+	url = https://github.com/git/git

@@ -24,6 +24,21 @@
 ############################################################################
 
 mkdir -p run
-sh ${MSHELL}/install/private.install.sh
-sh ${MSHELL}/install/public.install.sh
-sh ${MSHELL}/install/project.install.sh
+files=${MSHELL}/install/private.install.sh
+if [[ -e ${files} ]] ;
+then
+	sh ${files}
+fi
+
+files=${MSHELL}/install/public.install.sh
+if [[ -e ${files} ]] ;
+then
+	sh ${files}
+fi
+
+files=${MSHELL}/install/project.install.sh
+if [[ -e ${files} ]] ;
+then
+	sh ${files}
+fi
+
