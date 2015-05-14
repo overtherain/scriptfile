@@ -48,6 +48,14 @@ PUBLISH_DIR=${ROOT_DIR}/publish
 USED_DIR="current"
 # git tag, use this as version id
 GIT_TAG=
+# publish or debug
+CONFIG_ST="debug"
+# publish config file
+PUBLISH_CFG=config.publish.ini
+# debug config file
+DEBUG_CFG=config.debug.ini
+# using config
+CONFIG_FILE=config.ini
 # git url
 GIT_URL=${ROOT_DIR}/src
 # temp fold
@@ -79,7 +87,8 @@ cd -
 pwd
 read -p "Choose tag: " GIT_TAG
 echo "You have choose \"${GIT_TAG}\"."
-
+read -p "Choose 'publish' or 'debug':" CONFIG_ST
+echo "You have choose \"${CONFIG_ST}\"."
 ## backup
 ls ${PUBLISH_DIR}
 rm -vf ${PUBLISH_DIR}/${USED_DIR}
@@ -89,6 +98,16 @@ mv ${PUBLISH_DIR}/* ${BACKUP_DIR}/
 mv ${TEMP_DIR}/code ${PUBLISH_DIR}/${GIT_TAG}
 cd ${PUBLISH_DIR}/${GIT_TAG}
 git checkout ${GIT_TAG}
+
+## modify config
+case ${CONFIG_ST} in
+	"publish")
+		cp -vf ${PUBLISH_CFG} ${CONFIG_FILE}
+		;;
+	"debug")
+		cp -vf ${DEBUG_CFG} ${CONFIG_FILE}
+		;;
+esac
 cd ..
 
 ## envalue
