@@ -2,7 +2,7 @@
 
 ## Sprd log-tools
 ln -s ${MSHELL}/sh/v1.6.0/logs4android.sh ${MSHELL}/run/log4android
-ln -s ${MSHELL}/sh/v2.1.9/LogAndroid2PC.sh ${MSHELL}/run/slog2pc
+ln -s ${MSHELL}/sh/slog2pc.sh ${MSHELL}/run/slog2pc
 ln -s ${MSHELL}/sh/v2.0.2/LogAndroid2PC.sh ${MSHELL}/run/slog2pc.202
 ln -s ${MSHELL}/sh/v2.0.6/LogAndroid2PC.sh ${MSHELL}/run/slog2pc.206
 ln -s ${MSHELL}/sh/v2.0.2_ali/LogAndroid2PC.sh ${MSHELL}/run/slog2pc.ali
