@@ -130,6 +130,3 @@
 [submodule "projects/TranslateProject"]
 	path = projects/TranslateProject
 	url = git@github.com:LCTT/TranslateProject.git
-[submodule "projects/scriptfile"]
-	path = projects/scriptfile
-	url = git@github.com:GdZ/scriptfile.git
