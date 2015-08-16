@@ -1,0 +1,81 @@
+# adb protocol on passion (Nexus One)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e12", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on passion (Nexus One)
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0fff", MODE="0655", OWNER="zhanggd"
+# adb protocol on crespo/crespo4g (Nexus S)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e22", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on crespo/crespo4g (Nexus S)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e20", MODE="0655", OWNER="zhanggd"
+# adb protocol on stingray/wingray (Xoom)
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", ATTR{idProduct}=="70a9", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on stingray/wingray (Xoom)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="708c", MODE="0655", OWNER="zhanggd"
+# adb protocol on maguro/toro (Galaxy Nexus)
+SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", ATTR{idProduct}=="6860", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on maguro/toro (Galaxy Nexus)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e30", MODE="0655", OWNER="zhanggd"
+# adb protocol on panda (PandaBoard)
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", ATTR{idProduct}=="d101", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on panda (PandaBoard)
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", ATTR{idProduct}=="d022", MODE="0655", OWNER="zhanggd"
+# usbboot protocol on panda (PandaBoard)
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", ATTR{idProduct}=="d00f", MODE="0655", OWNER="zhanggd"
+# usbboot protocol on panda (PandaBoard ES)
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", ATTR{idProduct}=="d010", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (Nexus 7)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e42", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on grouper (Nexus 7)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e40", MODE="0655", OWNER="zhanggd"
+# adb protocol on manta (Nexus 10)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee2", MODE="0655", OWNER="zhanggd"
+# fastboot protocol on manta (Nexus 10)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee0", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (Moto)
+SUBSYSTEM=="usb", ATTR{idVendor}=="04cc", ATTR{idProduct}=="2323", MODE="0655", OWNER="zhanggd"
+
+# self define vid, pid ------begin-----
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1782", ATTR{idProduct}=="4d00", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1782", ATTR{idProduct}=="5d04", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1782", ATTR{idProduct}=="5d24", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (Coolpad 8089Q / T8701C)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1782", ATTR{idProduct}=="5d27", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (Coolpad 7252 / T8821A)
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0c03", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (Hisence HS-T966 / T8702B)
+SUBSYSTEM=="usb", ATTR{idVendor}=="109b", ATTR{idProduct}=="90c4", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (Coolpad / t8831s)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1782", ATTR{idProduct}=="5d27", MODE="0655", OWNER="zhanggd"
+#
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", ATTR{idProduct}=="7027", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", ATTR{idProduct}=="5d01", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", ATTR{idProduct}=="5d04", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (sprd)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", ATTR{idProduct}=="7028", MODE="0655", OWNER="zhanggd"
+
+# Cube Pad VID, PID define ------begin------
+# adb protocol on grouper (cube)
+SUBSYSTEM=="usb", ATTR{idVendor}=="2207", ATTR{idProduct}=="0000", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (cube)
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="9025", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper (HM 1S)
+SUBSYSTEM=="usb", ATTR{idVendor}=="2717", ATTR{idProduct}=="1240", MODE="0655", OWNER="zhanggd"
+
+# Contrast Phone VID, PID define ------begin------
+# adb protocol on grouper ()
+SUBSYSTEM=="usb", ATTR{idVendor}=="109d", ATTR{idProduct}=="90c4", MODE="0655", OWNER="zhanggd"
+# adb protocol on grouper ()
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f75", ATTR{idProduct}=="0902", MODE="0655", OWNER="zhanggd"
+# Lenovo
+SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", ATTR{idProduct}=="76ce", MODE="0655", OWNER="zhanggd"
+#2970:4002
+SUBSYSTEM=="usb", ATTR{idVendor}=="2970", ATTR{idProduct}=="4002", MODE="0655", OWNER="zhanggd"
+#05c6:9091
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="9091", MODE="0655", OWNER="zhanggd"
+#18d1:d00d
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="d00d", MODE="0655", OWNER="zhanggd"
