@@ -10,9 +10,6 @@
 [submodule "py/monkeyrunner"]
 	path = py/monkeyrunner
 	url = git@github.com:GdZ/AutoTest.git
-[submodule "jsonTest"]
-	path = jsonTest
-	url = git@github.com:GdZ/jsonTest.git
 [submodule "eDict"]
 	path = eDict
 	url = git@github.com:GdZ/eDict.git
