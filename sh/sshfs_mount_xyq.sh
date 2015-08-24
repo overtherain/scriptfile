@@ -1,2 +1,0 @@
-#!/bin/bash
-sshfs ${BUILD_SERVER_USER2}@${BUILD_SERVER}: ${MNT}/${BUILD_SERVER_USER2}

@@ -3,8 +3,8 @@
 if [ -n "$1" ]; then
 	fPath=$1;
 	case $1 in
-		h) echo "srcpack [path][jobs][packagename][type][var]";
-			echo "srcpack ~/ 100 package.tar.gz tar var"
+		h) echo "srcpack [path][jobs][packagename][type]";
+			echo "srcpack ~/ 100 package.tar.gz tar"
 			exit 0;;
 		v) echo "srcpack v1.0";
 			echo "Design by Gdz";

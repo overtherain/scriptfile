@@ -1,5 +1,26 @@
 #!/bin/bash
 #read -p "Connect shareusr to local:" ch
+IP=`ifconfig eth0  | grep -i 'inet ad' | awk '{print $2}' | cut -d':' -f2`
+echo IP:${IP}
+case $IP in
+	${BUILD_SERVER})
+		echo sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER}/develop ${MNT_ROOT}/develop
+		sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER}/develop ${MNT_ROOT}/develop
+		echo sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER} ${MNT_ROOT}/home
+		sshfs ${ZTKJ_LOCAL_USER}@${ZTKJ_LOCAL}:/home/${ZTKJ_LOCAL_USER} ${MNT_ROOT}/home
+		exit 0;
+		;;
+	${AUTOTEST_SERVER})
+		echo sshfs ${AUTOTEST_SERVER_USER}@${AUTOTEST_SERVER}:/ ${MNT}/autotest
+		sshfs ${AUTOTEST_SERVER_USER}@${AUTOTEST_SERVER}:/ ${MNT}/autotest
+		exit 0;
+		;;
+	${WEB_SERVER})
+		echo sshfs ${WEB_SERVER_USER}@${WEB_SERVER}:/ ${MNT_ROOT}/webserver
+		sshfs ${WEB_SERVER_USER}@${WEB_SERVER}:/ ${MNT_ROOT}/webserver
+		exit 0;
+		;;
+esac
 ch=$1
 echo USER:$ch
 case $ch in
@@ -23,10 +44,13 @@ case $ch in
 		echo sshfs ${BUILD_SERVER_USER3}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER3} ${MNT_ROOT}/${BUILD_SERVER_USER3}
 		sshfs ${BUILD_SERVER_USER3}@${BUILD_SERVER}:/home/${BUILD_SERVER_USER3} ${MNT_ROOT}/${BUILD_SERVER_USER3}
 		;;
-	${BUILD_SERVER_USER4})
-		echo "Mount yjx to local:"
-		echo sshfs ${BUILD_SERVER_USER4}@${BUILD_SERVER4}:/home/${BUILD_SERVER_USER4} ${MNT_ROOT}/${BUILD_SERVER_USER4}
-		sshfs ${BUILD_SERVER_USER4}@${BUILD_SERVER4}:/home/${BUILD_SERVER_USER4} ${MNT_ROOT}/${BUILD_SERVER_USER4}
+	${ZTKJ_SERVER_USER})
+		echo "Mount ztkj.cn to local:"
+		echo sshfs ${ZTKJ_SERVER_USER}@${ZTKJ_SERVER}:/home/${ZTKJ_SERVER_USER} ${MNT_ROOT}/${ZTKJ_SERVER_USER}
+		sshfs ${ZTKJ_SERVER_USER}@${ZTKJ_SERVER}:/home/${ZTKJ_SERVER_USER} ${MNT_ROOT}/${ZTKJ_SERVER_USER}
+		;;
+	${ZTKJ_LOCAL_USER})
+		echo "Mount ${ZTKJ_LOCAL} to `ifconfig`"
 		;;
 	*)
 		echo "Mount self to local:"

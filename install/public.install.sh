@@ -10,6 +10,7 @@ ln -s ${MSHELL}/sh/daliy.report.daemon.sh ${MSHELL}/run/daliy.push.daemon
 # development kit tools
 ln -s ${MSHELL}/sh/eclipse.php.sh ${MSHELL}/run/eclipse.php
 ln -s ${MSHELL}/sh/eclipse.c.sh ${MSHELL}/run/eclipse.c
+ln -s ${MSHELL}/sh/android-studio.sh ${MSHELL}/run/android-studio
 
 ## display mount as tab
 ln -s ${MSHELL}/sh/mounttab.sh ${MSHELL}/run/mounttab
@@ -38,3 +39,7 @@ ln -s ${MSHELL}/bin/QIpmsg ${MSHELL}/run/ipmsg
 ln -s ${MSHELL}/sh/menu.sh ${MSHELL}/run/menu
 
 ln -s ${MSHELL}/sh/goagent.sh ${MSHELL}/run/goagent
+
+ln -s ${MSHELL}/sh/worklist.sh ${MSHELL}/run/worklist
+
+
